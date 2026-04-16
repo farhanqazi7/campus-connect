@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.campusconnect"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:5:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /home/zohaib/.gradle/caches/transforms-3/8222cb7143ba57e62d848e6565915cfd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.campusconnect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /home/zohaib/.gradle/caches/transforms-3/8222cb7143ba57e62d848e6565915cfd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /home/zohaib/.gradle/caches/transforms-3/8222cb7143ba57e62d848e6565915cfd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.campusconnect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /home/zohaib/.gradle/caches/transforms-3/8222cb7143ba57e62d848e6565915cfd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /home/zohaib/.gradle/caches/transforms-3/8222cb7143ba57e62d848e6565915cfd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:6:5-29:19
+21        android:allowBackup="true"
+21-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /home/zohaib/.gradle/caches/transforms-3/8222cb7143ba57e62d848e6565915cfd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@drawable/ic_campus"
+25-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:8:9-43
+26        android:label="Campus Connect"
+26-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:9:9-39
+27        android:roundIcon="@drawable/ic_campus"
+27-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:10:9-48
+28        android:supportsRtl="true"
+28-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:11:9-35
+29        android:theme="@style/AppTheme"
+29-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:12:9-40
+30        android:usesCleartextTraffic="true" >
+30-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:13:9-44
+31        <activity
+31-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:15:9-23:20
+32            android:name="com.campusconnect.activities.SplashActivity"
+32-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:16:13-54
+33            android:exported="true"
+33-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:17:13-36
+34            android:theme="@style/SplashTheme" >
+34-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:18:13-47
+35            <intent-filter>
+35-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:19:13-22:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:20:17-69
+36-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:21:17-77
+38-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:21:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:24:9-87
+42            android:name="com.campusconnect.activities.LoginActivity"
+42-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:24:19-59
+43            android:exported="false" />
+43-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:24:60-84
+44        <activity
+44-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:25:9-91
+45            android:name="com.campusconnect.activities.DashboardActivity"
+45-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:25:19-63
+46            android:exported="false" />
+46-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:25:64-88
+47        <activity
+47-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:26:9-94
+48            android:name="com.campusconnect.activities.CourseDetailActivity"
+48-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:26:19-66
+49            android:exported="false" />
+49-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:26:67-91
+50        <activity
+50-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:27:9-95
+51            android:name="com.campusconnect.activities.AnnouncementsActivity"
+51-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:27:19-67
+52            android:exported="false" />
+52-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:27:68-92
+53        <activity
+53-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:28:9-89
+54            android:name="com.campusconnect.activities.ProfileActivity"
+54-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:28:19-61
+55            android:exported="false" />
+55-->/home/zohaib/Projects/CampusConnect/app/src/main/AndroidManifest.xml:28:62-86
+56
+57        <service
+57-->[androidx.room:room-runtime:2.6.1] /home/zohaib/.gradle/caches/transforms-3/edd78475f9a71f9091f542741a3f0f22/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+58            android:name="androidx.room.MultiInstanceInvalidationService"
+58-->[androidx.room:room-runtime:2.6.1] /home/zohaib/.gradle/caches/transforms-3/edd78475f9a71f9091f542741a3f0f22/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+59            android:directBootAware="true"
+59-->[androidx.room:room-runtime:2.6.1] /home/zohaib/.gradle/caches/transforms-3/edd78475f9a71f9091f542741a3f0f22/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+60            android:exported="false" />
+60-->[androidx.room:room-runtime:2.6.1] /home/zohaib/.gradle/caches/transforms-3/edd78475f9a71f9091f542741a3f0f22/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.2.0] /home/zohaib/.gradle/caches/transforms-3/cd9429c185a437c1c2680426049eb8fb/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.2.0] /home/zohaib/.gradle/caches/transforms-3/cd9429c185a437c1c2680426049eb8fb/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+64            android:authorities="com.campusconnect.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.2.0] /home/zohaib/.gradle/caches/transforms-3/cd9429c185a437c1c2680426049eb8fb/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.2.0] /home/zohaib/.gradle/caches/transforms-3/cd9429c185a437c1c2680426049eb8fb/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.2.0] /home/zohaib/.gradle/caches/transforms-3/cd9429c185a437c1c2680426049eb8fb/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.2.0] /home/zohaib/.gradle/caches/transforms-3/cd9429c185a437c1c2680426049eb8fb/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.2.0] /home/zohaib/.gradle/caches/transforms-3/cd9429c185a437c1c2680426049eb8fb/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zohaib/.gradle/caches/transforms-3/02fb901d6af984eb56ae84d0c207ed39/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zohaib/.gradle/caches/transforms-3/02fb901d6af984eb56ae84d0c207ed39/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zohaib/.gradle/caches/transforms-3/02fb901d6af984eb56ae84d0c207ed39/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+75        </provider>
+76
+77        <receiver
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+78            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+79            android:directBootAware="false"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+80            android:enabled="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+81            android:exported="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+82            android:permission="android.permission.DUMP" >
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+84                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+87                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+90                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+93                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zohaib/.gradle/caches/transforms-3/32a9537a559e57f510fc7569250bc682/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+94            </intent-filter>
+95        </receiver>
+96    </application>
+97
+98</manifest>
